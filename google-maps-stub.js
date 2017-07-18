@@ -1,6 +1,6 @@
 'use strict';
 
-exports.default = {
+exports {
       maps: {
         //https://developers.google.com/maps/documentation/javascript/reference#Animation
         Animation: {},
@@ -215,4 +215,4 @@ exports.default = {
         }
       }
     }
-  };
+
