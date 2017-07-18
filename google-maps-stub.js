@@ -223,3 +223,5 @@ google_maps_stub.get = function () {
 
   return window.google;
 };
+
+exports.default = google_maps_stub;
