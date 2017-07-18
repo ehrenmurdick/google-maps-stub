@@ -1,6 +1,6 @@
 'use strict';
 
-exports {
+exports = {
       maps: {
         //https://developers.google.com/maps/documentation/javascript/reference#Animation
         Animation: {},
