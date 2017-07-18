@@ -1,10 +1,6 @@
 'use strict';
 
-var google_maps_stub = {};
-
-google_maps_stub.get = function () {
-  var window = {
-    google: {
+exports.default = {
       maps: {
         //https://developers.google.com/maps/documentation/javascript/reference#Animation
         Animation: {},
@@ -220,8 +216,3 @@ google_maps_stub.get = function () {
       }
     }
   };
-
-  return window.google;
-};
-
-exports.default = google_maps_stub;
